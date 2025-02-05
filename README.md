@@ -1,0 +1,3 @@
+# Python TypeError in Comparison before Arithmetic Operation
+
+This repository demonstrates an uncommon TypeError in Python that can occur due to implicit type conversion during comparison before an arithmetic operation. The bug is subtle and might not be immediately apparent.  The `function_with_uncommon_error` appears to handle division by zero, but a `TypeError` might occur before that line is reached if the input is not a number (or is a number-like object that is not compatible with numeric operations).
